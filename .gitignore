@@ -1,0 +1,19 @@
+#ignore all
+
+#temp files
+*.temp
+
+#layout files
+*.layout
+
+#object files
+*.o
+
+#i files
+*.i
+
+#s files
+*.s
+
+#out files
+*.out
