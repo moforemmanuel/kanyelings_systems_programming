@@ -2,15 +2,15 @@
 
 file="$1"
 
-echo $file
+# echo $file
 
 fileName=$(echo $file | cut -d '.' -f 1)
 
-echo $fileName
+# echo $fileName
 
 fileExt=$(echo $file | cut -d '.' -f 2)
 
-echo $fileExt
+# echo $fileExt
 
 if [ -f "$file" ]   #test file existence
 then 
