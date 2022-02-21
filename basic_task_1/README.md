@@ -18,10 +18,10 @@ Done ...
 
 if the file exists but is not a c file:
 ```
-file.ext exists.
-ext.ext is not a c file
+file_name.ext exists.
+file_name.ext is not a c file
 ```
 
 >To run the executable file generated, run `./c_file_name`
 
->Use `sudo chmod u+x file_name` to make generated file executable if you encounter a permission error
+>Use `sudo chmod u+x c_file_name` to make generated file executable if you encounter a permission error
