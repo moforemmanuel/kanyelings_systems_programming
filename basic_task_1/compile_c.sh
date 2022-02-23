@@ -19,7 +19,8 @@ then
     then 
         echo "$file is a c file"
         echo "Compiling ..."
-        gcc $file -o $fileName
+        # gcc $file -o $fileName
+        gcc -Wall -Wextra -O2 -g -o $fileName $file
         echo "Done ..."
     else 
         echo "$file is not a c file"
